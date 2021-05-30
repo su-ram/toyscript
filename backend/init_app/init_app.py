@@ -20,7 +20,7 @@ def create_app():
         resources={
             r"*": {
                 "origins": [
-                    "http://elice-kdt-ai-track-vm-da-04.koreacentral.cloudapp.azure.com"
+                    "https://toyscript.azurewebsites.net"
                 ]
             }
         },
